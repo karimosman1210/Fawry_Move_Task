@@ -379,7 +379,7 @@ class MoviesFragment : Fragment(),
 
             if (hours >= 4) {
                 appDb.movieDao().deleteMovies()
-                prefManager.setTime("")
+                prefManager.setTime(currentDateAndTime)
             }
         }
     }
