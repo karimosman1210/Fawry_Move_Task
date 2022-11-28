@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="icon">Icon</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="no_movies_msg">There is no movies</string>
+    <string name="error_msg">Something went wrong</string>
+    <string name="check_internet_msg">Check you internet connection</string>
+    <string name="popular_movies">Popular movies</string>
+    <string name="upcoming_movies">Upcoming movies</string>
+    <string name="top_rated_movies">Top Rated movies</string>
+</resources>

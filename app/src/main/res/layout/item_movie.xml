@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_item_layout"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="@dimen/_8sdp"
+    tools:layout_margin="@dimen/_16sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/icon"
+            android:scaleType="fitXY"
+            tools:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_image"
+            android:layout_margin="@dimen/_12sdp"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:lines="2"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_cod_gray"
+            android:textSize="@dimen/_14ssp"
+            tools:text="Spate of cyber attacks in Europe increases concerns about government defenses" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#141414</color>
+    <color name="color_primary_variant">#0d0d0d</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_secondary">#FFFFFF</color>
+    <color name="color_secondary_variant">#FFFFFF</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_window_background">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_mine_shaft">#30333333</color>
+    <color name="color_alabaster">#f9f9f9</color>
+    <color name="color_dove_gray">#737373</color>
+    <color name="color_cod_gray">#060606</color>
+</resources>

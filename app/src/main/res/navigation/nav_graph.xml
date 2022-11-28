@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_movies_fragment">
+
+    <fragment
+        android:id="@+id/nav_movies_fragment"
+        android:name="com.fawry.movieapp.screens.home.movies.MoviesFragment"
+        tools:layout="@layout/fragment_movies">
+
+        <action
+            android:id="@+id/action_open_movie_details"
+            app:destination="@id/nav_movie_details_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_movie_details_fragment"
+        android:name="com.fawry.movieapp.screens.movie_details.MovieDetailsFragment"
+        tools:layout="@layout/fragment_movie_details">
+
+        <argument
+            android:name="movie"
+            app:argType="com.fawry.movieapp.data.model.Movie" />
+
+        <action
+            android:id="@+id/action_back_to_movies"
+            app:destination="@id/nav_movies_fragment" />
+
+    </fragment>
+
+</navigation>
